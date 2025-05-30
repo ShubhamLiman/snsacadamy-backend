@@ -7,7 +7,7 @@ import ContactRouter from "./Routes/enquiry.route.js";
 import EnrollRouter from "./Routes/Enroll.route.js";
 dotenv.config();
 const port = process.env.PORT;
-const app = express();
+export const app = express();
 app.use(
   cors({
     origin: ["http://localhost:5173"],
