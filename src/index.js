@@ -10,7 +10,7 @@ const port = process.env.PORT;
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://snsacadamy.vercel.app/"],
+    origin: ["http://localhost:5173", "https://snsacadamy.vercel.app"],
     credentials: true, // Allow cookies to be sent from the frontend
   })
 );
